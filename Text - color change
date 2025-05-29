@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<button id="submit">Submit</button>
+<p id="output">change color</p>
+
+<script>
+let button = document.getElementById("submit");
+let output = document.getElementById("output");
+button.addEventListener("click",function(){
+   button.style.color = "red";
+   output.style.color = "blue";
+});
+</script>
+
+</body>
+</html>
