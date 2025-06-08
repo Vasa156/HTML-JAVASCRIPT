@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title><p id="message">hide and show</p>
+<button id="clickme">clickme</button>
+</head>
+<body>
+<script>
+let message = document.getElementById("message");
+let button = document.getElementById("clickme");
+button.addEventListener("click", function(){
+    if(message === "none")
+    {
+        messasge.style.display = "block";
+        button.textContent = "hide text";
+    }
+    else{
+        message.style.display = "hide";
+        button.textContent = "show text";
+    }
+});
+<script>
+</body>
+</html>
