@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <input type="text" id="nameinput" placeholder="Enter your name">
+      <button id="submit">Click Me</button>
+      <p id="output"></p>
+      <script> 
+      let input = document.getElementById("nameinput");
+      let button = document.getElementById("submit");
+      let output = document.getElementById("output");
+
+    button.addEventListener("click", function(){
+    let name = input.value;
+    output.textContent = "Hi, "+name+" Welcome."+" How You Doing?";
+});
+      </script>
+  </body>
+</html>
